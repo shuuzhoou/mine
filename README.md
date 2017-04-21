@@ -14,13 +14,12 @@
 
 会要求输入电脑的密码（没有密码会跳过去），出现以下内容
 
- GNU nano 2.0.6              File: /etc/fstab
+        GNU nano 2.0.6              File: /etc/fstab
  
  
-                                                   [ Read 1 line ]
- ^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
- 
- ^X Exit       ^J Justify    ^W Where Is   ^V Next Page  ^U UnCut Text^T To Spell   
+                                                              [ Read 1 line ]
+       ^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+       ^X Exit       ^J Justify    ^W Where Is   ^V Next Page  ^U UnCut Text^T To Spell   
 
 复制以下内容粘贴后 不回车 ，按 `Ctrl + X` 
 
