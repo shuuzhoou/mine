@@ -19,12 +19,13 @@
 简单使用方法
 ---------
 
-###方法一：  
+###开始
+连接移动硬盘，打开“实用工具”（shift+command+U），打开“终端”进行命令输入：
 下载 whitelist.pac或whiteiplist.pac或proxy.pac 文件后，修改代理服务器的 ip 地址和代理类型。然后将浏览器的代理设置中指向 whitelist.pac或whiteiplist.pac。
 
-	var wall_proxy = 'PROXY www.abc.com:443;'; 
-	以上需要更换成有效的代理地址，代理类型还可以为'SOCKS5'或'HTTPS'
-	多个代理之间使用分号分隔，如'PROXY a.com:80;SOCKS5 a.com:1080;'
+
+	使用'diskutil list'命令查看到磁盘的'Name'（复制粘贴命令然后回车）
+
 
 当 `proxy` 的代理类型为 `HTTPS` 时，此 pac 文件适合用于 [Google Chrome 的安全代理](http://www.chromium.org/developers/design-documents/secure-web-proxy)。
 
